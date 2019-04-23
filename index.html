@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Markdown 编辑器</title>
+    <link rel="stylesheet" type="text/css" href="./dist/css/planeui.min.css" />
+    <link rel="stylesheet" href="css/editormd.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="css/modao.css" />
+</head>
+
+<body>
+    <a name="top"></a>
+    <a href="#top" class="fa fa-arrow-circle-up fa-3x pui-text-blue-400" id="go-to-top"></a>
+    <div class="pui-layout">
+        <header class="pui-bg-blue page-header">
+            <div class="pui-layout pui-layout-fixed pui-layout-fixed-1200 pui-layout-fixed-1360">
+                <h1 class="pui-text-center pui-text-xxxxxl page-title animated zoomInDown">
+                    <a href="./index.html" class="pui-text-white">
+                        <i class="editormd-logo editormd-logo-2x"></i><strong>Editor.md</strong>
+                    </a>
+                </h1>
+
+                <div class="page-header-container">
+                    <div class="editormd pui-z-depth-3 pui-bg-white" id="index-editormd"></div>
+                </div>
+            </div>
+        </header>
+
+        <div id="index-loading">
+          <div class="pui-loading pui-loading-spinner pui-animation-rotate pui-animation-repeat pui-animation-reverse"><span class="fa fa-spinner fa-3x"></span></div><p>loading....</p>
+        </div>
+
+        <hr class="pui-hr pui-layout-fixed pui-layout-fixed-1200" />
+
+    </div>
+
+    <script src="examples/js/jquery.min.js"></script>
+
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="../dist/js/planeui.patch.ie8.min.js"></script>
+<![endif]-->
+
+    <!--[if lt IE 10]>
+<script type="text/javascript" src="../dist/js/planeui.patch.ie9.min.js"></script>
+<![endif]-->
+
+    <script type="text/javascript" src="./dist/js/planeui.js"></script>
+    <!--<script src="editormd.min.js"></script>-->
+    <script src="js/index.js"></script>
+    <script src="js/plug.js"></script>
+</body>
+
+</html>

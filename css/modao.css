@@ -1,0 +1,198 @@
+.editormd-preview video {
+    width: 100%;
+    height: 100%;
+}
+
+.editormd-preview p {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 360px) {
+    .editormd-preview {
+        margin-left: 55px;
+        margin-right: 55px;
+        text-align: center;
+    }
+
+    /*
+    iframe is the video part
+    */
+
+    .navigation-section {
+        min-height: 80px;
+        text-align: center;
+        padding: 30px 55px 25px 55px;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 540px) {
+    .editormd-preview {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .navigation-section {
+        min-height: 80px;
+        text-align: center;
+        padding: 30px 60px 25px 60px;
+    }
+}
+
+
+trix-editor, .editormd-preview {
+    text-align: left;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.85;
+    color: #525E71;
+}
+
+trix-editor div, .editormd-preview div {
+    margin: 0 0 16px 0;
+}
+/* line 16, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor em, .editormd-preview em {
+    font-style: italic;
+}
+/* line 19, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor blockquote, .editormd-preview blockquote {
+    margin: 50px 0 34px 5px;
+    padding: 0 0 0 10px;
+    line-height: 1.1;
+    border-left: 4px solid #f55d54;
+    font-size: 20px;
+    font-style: normal;
+}
+/* line 26, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor h1, .editormd-preview h1 {
+    font-size: 28px;
+    margin: 10px 0 25px 0px;
+    font-weight: 500;
+    border-bottom: none;
+    padding: 0;
+}
+/* line 30, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor h3, .editormd-preview h3 {
+    font-size: 26px;
+    line-height: 1.5;
+    margin: 36px 0 18px;
+}
+/* line 34, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor h4, .editormd-preview h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 30px 0 20px;
+}
+/* line 39, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor img, .editormd-preview img {
+    /* max-width: 100%; */
+    width: 100%;
+    height: auto;
+}
+/* line 42, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor a, .editormd-preview a {
+    color: #f55d54;
+    text-decoration: underline;
+    text-align: center;
+}
+/* line 46, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor a:hover, .editormd-preview a:hover {
+    color: #f88b84;
+}
+/* line 49, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor .iframe-con, .editormd-preview .iframe-con {
+    position: relative;
+}
+/* line 51, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor .iframe-con iframe, .editormd-preview .iframe-con iframe {
+    position: absolute;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+/* line 56, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor figure.mediumInsert-images, trix-editor figure.attachment, .editormd-preview figure.mediumInsert-images, .editormd-preview figure.attachment {
+    text-align: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+/* line 61, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor figcaption, .editormd-preview figcaption {
+    display: none;
+}
+/* line 64, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor ol, .editormd-preview ol {
+    list-style-type: decimal;
+}
+/* line 66, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor ul, .editormd-preview ul {
+    list-style-type: disc;
+}
+/* line 68, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor ul, trix-editor ol, .editormd-preview ul, .editormd-preview ol {
+    margin-left: 25px;
+    margin-bottom: 16px;
+}
+/* line 71, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor ul li, trix-editor ol li, .editormd-preview ul li, .editormd-preview ol li {
+    margin-left: 10px;
+}
+/* line 73, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor ul br, trix-editor ol br, .editormd-preview ul br, .editormd-preview ol br {
+    display: none;
+}
+/* line 76, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor li:before, .editormd-preview li:before {
+    content: "  ";
+}
+/* line 79, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor pre, .editormd-preview pre {
+    font-family: monospace, monospace;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    white-space: pre-wrap;
+    background-color: #eee;
+}
+/* line 87, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+trix-editor .trashed, .editormd-preview .trashed {
+    text-decoration: line-through;
+    font-style: italic;
+    color: #aaa;
+}
+
+.editormd-preview center br {
+    display: inline-block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 0;
+}
+
+.editormd-preview p br:first-child {
+    display: inline-block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 0;
+}
+
+.editormd-preview p br:last-child {
+    display: inline-block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 16px;
+}
+
+.editormd-preview center br:nth-last-child(1) {
+    display: inline-block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 16px;
+}
+
+
+
+@media (max-width: 414px) {
+    /* line 93, /Users/dev/code/modao/imock/app/assets/stylesheets/application/post/content.sass */
+    trix-editor, .editormd-preview {
+        font-size: 14px;
+    }
+}
+
